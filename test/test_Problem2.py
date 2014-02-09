@@ -1,7 +1,7 @@
 import unittest
 from main import Problem2
 
-class TestProblem1(unittest.TestCase):
+class TestProblem2(unittest.TestCase):
 
 	def test_sum_even_fib_numbers_less_than_100(self):
 		p1 = Problem2.Problem2()
