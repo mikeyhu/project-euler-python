@@ -1,6 +1,4 @@
-import math
 import itertools
-#squares = (x*x )
 
 class Problem5(object):
 

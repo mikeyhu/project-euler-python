@@ -1,5 +1,3 @@
-import math
-
 class Problem4(object):
 
 	def solve(self,number):
