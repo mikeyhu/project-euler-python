@@ -1,9 +1,10 @@
 import math
+from lib import Primes
 
 class Problem3(object):
 
 	def solve(self,number):
-		p = self.primes()
+		p = Primes.primes()
 		next = p.next()
 		largest = 0
 		max = math.sqrt(number)
@@ -13,20 +14,4 @@ class Problem3(object):
 			next = p.next()
 		return largest
 
-	
-	def primes(self):
-		def isPrime(self, previous, number):
-			for prime in previous:
-				if number % prime == 0:
-					return False
-			return True
-		a = []
-		next = 2
-		yield 1
-		while True:
-			while not isPrime(self,a,next):
-				next+=1
-			yield next
-			a.append(next)
-			next+=1
 
